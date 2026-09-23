@@ -1,16 +1,58 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inline CSS Headings · h1 to h6</title>
+  <style>
+    body {
+      font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+      background: #fafafa;
+      margin: 2rem;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      padding: 1.5rem 2rem;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    }
+    .note {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+      border-left: 4px solid #ddd;
+      padding-left: 1rem;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="container">
+    <div class="note">
+      ⚡ Each heading below uses <strong>inline CSS</strong> (style attribute) to set its color.
+    </div>
 
+    <!-- Heading 1: #2a7ae2 -->
+    <h1 style="color: #2a7ae2;">Heading 1</h1>
+    
+    <!-- Heading 2: #f44336 -->
+    <h2 style="color: #f44336;">Heading 2</h2>
+    
+    <!-- Heading 3: #4caf50 -->
+    <h3 style="color: #4caf50;">Heading 3</h3>
+    
+    <!-- Heading 4: #ff9800 -->
+    <h4 style="color: #ff9800;">Heading 4</h4>
+    
+    <!-- Heading 5: #607d8b -->
+    <h5 style="color: #607d8b;">Heading 5</h5>
+    
+    <!-- Heading 6: #ffeb3b -->
+    <h6 style="color: #ffeb3b;">Heading 6</h6>
+  </div>
+
+ 
 </body>
-
 </html>
